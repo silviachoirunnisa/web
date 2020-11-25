@@ -1,0 +1,173 @@
+body {
+ margin: 0;
+ font-family: "Georgia";
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1110px;
+    padding: 0 15px;
+    margin: 0 100px;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(JIN\ REVISII\ FIX\ 2.jpg);
+    background-position: 5900px;
+    background-size: 1500px;
+    color: rgb(25, 13, 32);
+    text-align: center;
+}
+
+ .top-wrapper h1 {
+     opacity: 0.9;
+     font-size: 50px;
+     letter-spacing: 5px;
+     margin-bottom: 10px;
+}
+
+.top-wrapper p{
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    opacity: 1;
+
+}
+
+.signup {
+    background-color: chartreuse;
+}
+
+.facebook {
+    background-color: chartreuse;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: chartreuse;
+}
+
+header {
+    height: 90px;
+    width: 1347px;
+    background-color: rgb(113, 197, 186) ;
+    float: left;
+    font-size: 20px;
+}
+
+.header-right {
+    float: right;
+    transition: all 0.5s; 
+}
+
+.header-left {
+    font-size: 30px;
+    color: white;
+    margin-top: 25px;
+}
+
+
+.header-right :hover {
+    background-color: rgb(155, 178, 197);
+}
+
+.header-right a {
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(56, 97, 219)116, 124);
+    display: block;
+}
+
+.footer {
+    height: 80px;
+    width: 1150px;
+    background-color:  rgb(113, 197, 186);
+    float: 500px;
+    font-size: 20px;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 100px;
+}
+
+.footer-logo {
+    font-size: 60px;
+    float: 500px;
+}
+
+
+.kontak1 {
+    background-color: rgb(14, 129, 129);
+    margin-top: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.kontak {
+    text-align: center;
+    color: rgb(77, 20, 20);
+}
+
+.kontak p {
+    font-family: "Raleway Thin", sans-serif;
+}
+
+.btnkontak {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.btnkontak a {
+    background-color: rgb(114, 206, 178);
+    padding: 15px 30px;
+    box-shadow: 0px 5px 0px rgb(64, 131, 61);
+    text-decoration: none;
+    color: rgb(133, 52, 38);
+    border-radius: 10px;
+
+}
+
+}
+@media (max-width: 720px) {
+    .container {
+      width: 100%;
+    }
+
+    .container .header-right a{
+        margin-right: 800px;
+        border: 2px solid white;
+        border-radius: 10px;
+        margin-top: -45px;
+    }
+  }
+  
+  
+  @media (min-width: 720px) and (max-width: 992px;){
+    .container {
+      width: 50%;
+    }
+  }
+
+/* tablet */
+  @media screen and (max-width: 576px){
+    .container .header-right a {
+        margin-right: 900px
+    }
+  }
+/* akhir tablet */
